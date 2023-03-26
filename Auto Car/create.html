@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <title>DAC | Automobile</title>
+   
+
+
+
+</head>
+<body>
+        <header class="header" id="header">
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="index.html">DAC</a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li> <a href="#" class="active">Home</a></li>
+                        <li> <a href="#">Technology</a></li>
+                        <li> <a href="#">Production</a></li>
+                        <li> <a href="#">Reviews</a></li>
+                        <li> <a href="#">About DAC</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="login"><a href="login.html">Login</a></li>
+                        <li class="login"><a href="create.html">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="row">
+                    <div class="left-sec">
+                        <div class="content">
+                            <h2> <span> DAC Auto</span><br> The Name Of Technology</h2>
+                            <p>“Technology is best when it brings people together. It has become appallingly obvious that our technology has exceeded our humanity.”</p>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="buy.html" target="_blank">BUY NOW</a>
+                        </div>
+                         <div class="info">
+                            <div class="production">
+                              <p>Production</p>
+                               <h2>2025 - 2030</h2>
+                            </div>
+                            <div class="production">
+                              <p>CEO</p>
+                              <h2>USAMA</h2>
+                            </div>
+                         </div>
+                    </div>
+                    <div class="cright-sec">
+                        <div class="container">
+                         <form action="crae.php" method="post">
+                            <h2> Create Account</h2>
+                            <br><br>
+                            <label for="user" > First Name </label>
+                            <br>
+                            <input type="text" name="name" class="user" placeholder="Your Name">
+                            <br>
+                            <label for="user" > Last Name </label>
+                            <br>
+                            <input type="text" name="lname" class="user" placeholder="Last Name">
+                            <br>
+                            <label for="user" > Phone Number </label>
+                            <br>
+                            <input type="number" name="phone" class="user" placeholder="Your Phone Number">
+                            <br>
+                            <label for="user" > Email </label>
+                            <br>
+                            <input type="email" name="email" class="user" placeholder="example@gmail.com">
+                            <br>
+                            <label for="user" > Date Of Birth</label>
+                            <br>
+                            <input type="date" name="dofb" class="user" placeholder="example@gmail.com">
+                            <br>
+                            <label for="pas">Make Pasword</label>
+                            <br>
+                            <input type="password" name="pas" class="pas" placeholder="password"> 
+                            <br>
+                            <label for="pas">Confirm Pasword</label>
+                            <br>
+                            <input type="password" name="conpas" class="pas" placeholder="password"> 
+                            <br>
+                            <input type="checkbox" class="check" >
+                            <label for="check"> Remember Password</label>
+                            <br>
+                            <button class="sub">SUBMIT</button>
+                            <br>
+                            <br>
+                            <hr>
+                            <p>
+                                Already have on account <a href="login.html" _blank>Login Account</a>
+                            </p>
+                
+                
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+        <script>
+
+            $(document).ready(function(){
+                $(".my-car").slick({
+                    autoplay:true,
+                    dots:true,
+                    speed:1000,
+                    
+                })
+            })
+
+        </script>
+</body>
+</html>

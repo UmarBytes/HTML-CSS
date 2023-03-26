@@ -1,0 +1,66 @@
+*{
+    box-sizing: content-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 30px;
+    padding: 12px;
+
+}
+h1,h3{
+    text-align: center;
+}
+h1{
+    color: rgb(5, 168, 48);
+}
+.contaner{
+    background-color: lightgrey;
+    padding: 20px;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 7px;
+}
+
+input,select,textarea{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+
+}
+.contaner form .sub{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.contaner form .sub{
+    background-color: rgb(1, 110, 59) !important;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    width: 97%;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    cursor: pointer;
+}
+.contaner form .sub:hover{
+background-color: rgb(5, 168, 48) !important;
+
+}
+
+body{
+    background-color: rgb(182, 182, 182);
+}
+
+@media screen and (min-width: 600px) and (orientation: landscape) {
+    /* … */
+    body{
+        background-color: rgb(4, 4, 4);
+    }
+    
+  }
+   
